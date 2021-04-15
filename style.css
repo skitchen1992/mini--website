@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+}
+
+
+
+
+
+
+.cont{
+    display: flex;
+    background-color: #EAEAEA;
+/*     height: 100vh; */
+    overflow: scroll;
+    height: 100vh;
+   
+}
+nav{
+    flex-direction: column;
+    background-color: #F6F6F6;
+    flex-basis:20%;
+    box-shadow: 0 0 10px rgb(146 122 122 / 50%);
+    height: 152vh;
+
+
+}
+main{
+    flex-basis:80%;
+    padding: 0 2rem;
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    font-size: .8em;
+}
+.name:hover{
+    background-color: #BD194B;
+    color: white;
+}
+img{
+    width: 20px;
+    margin: 0 1rem;
+}
+.company{
+    border-bottom: 2px solid #CBCBCB;
+    padding: 1rem 1rem;
+}
+.Dashboard{
+    padding: 1rem 0;
+   
+}
+.Dashboard img{
+    display: none;
+}
+.achiev{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.9rem 0 0 0;
+    
+}
+
+.card{
+    background-color: white;
+    box-shadow: 4px 3px 2px rgb(146 122 122 / 50%);
+    padding: .5rem;
+    width: 22%;
+
+}
+.data{
+    display: flex;
+    justify-content: space-around;   
+}
+.prise{
+    text-align: right;
+}
+.square{
+    margin-top: -1.2rem;
+/*     padding: .2rem .1rem; */
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+.datawhile{
+    background: url("data_white.svg") center no-repeat;
+}
+.shop{
+    background: url("shop_white.svg") center no-repeat;
+}
+.teg{
+    background: url("tag_white.svg") center no-repeat;
+}
+.paperplane{
+    background: url("paperplane_white.svg") center no-repeat;
+}
+.right-text{
+    margin: 0 0 0 2rem;
+}
+.tittle{
+    font-size: .7em;
+    text-align: right;
+}
+.prise{
+    font-size: 1.3em;
+}
+
+.text{
+    display: flex;
+    align-items:center;
+}
+
+.text>img{
+    margin: 0;
+    width: .8rem;
+    height: .8rem;
+}
+.text>div{
+    
+    font-size: .6em;
+    margin: .5rem;
+}
+
+
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: #D89E24;
+}
+
+.blue{
+    background-color: #274D97;
+}
+
+.red{
+    background-color: #C32056;
+}
+
+.shedule{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+}
+
+.shedule>.card{
+    width: 30%;
+}
+.shedule .square{
+    
+    width: 100%;
+    height: 8rem;
+    display: flex;
+
+
+}
+
+/* .graphics{
+    background: url("graphics.svg") 100px 100px center  no-repeat ;
+
+
+} */
+
+.shedule .square>img{
+    margin: .4rem .2rem;
+    width: 95%;
+    height: 95%;
+
+}
+.shedule .data{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.shedule .right-text{
+    margin: .5rem 0 0 0;
+}
+
+.shedule .prise {
+    text-align: left;
+}
+.shedule .tittle {
+    text-align: left;
+}
+
+.shedule .tittle{
+    font-size: 1.2em;
+}
+.shedule .prise{
+    font-size: .7em;
+}
+.two{
+    margin-bottom: 3rem;
+}
+
+.two .card{
+    width: 47%;
+    padding-bottom: 1rem ;
+}
+.two .square{
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+.two .name{
+    padding:  .5rem 1rem  ;
+    margin: 0;
+    color:white;
+}
+.two .name:hover{
+    background-color: #DEAD49;
+}
+.two .name img{
+    padding:  0 .5rem 0 0;
+    margin: 0;
+    width: .8rem;
+}
+
+.two .right-text{
+    display: flex;
+    align-items:center;
+
+}
+.two .right-text .tittle{
+    width: 90%;
+    font-size: .8em;
+}
+.two .right-text img {
+    margin: 0 0 0 1rem;
+    width: 1rem;
+    height: 1rem;
+}
+input{
+    margin-right: 0.5rem;
+}
+.two .right{
+   flex-direction: column;
+   align-items: flex-start;
+   margin: .5rem .5rem ;
+
+    
+}
+.two .right .tittle{
+    margin-bottom:.5rem ;
+    
+}
+.two>.card .blue{
+    height: 4rem;
+}
+table{
+    width: 100%;
+    padding: 0 1rem;
+    border-collapse: collapse; 
+
+}
+tr{
+    /* margin: 5rem 0; */
+    
+}
+th{
+    color: #69C7D2;
+    font-size: .8em;
+    padding: .5rem .5rem;
+    text-align: left;
+    border-bottom: 1px solid #D8D8D8; 
+}
+td{
+    padding: .5rem .5rem;
+    border-bottom: 1px solid #D8D8D8; 
+    font-size: .8em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    font-size: .8em;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+
+}
+.link>div{
+    margin-left: 1rem;
+}
+a{
+    color: #6D6660;
+    text-decoration: none;
+}
+.made{
+    color: #6D6660;
+}
+@media (max-width: 1000px){
+
+    nav{
+        height: 165vh;
+    }
+
+    .achiev{
+        flex-wrap: wrap;
+        margin: 0;
+        
+    } 
+    .achiev .card{
+        width: 45%;
+        margin-top: 2rem;
+    }
+    .two{
+        flex-direction: column;
+        margin: 0;
+    }
+    .two .card{
+        width: 98%;
+        margin-top: 3rem;
+    }
+    .employees{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 800px){
+
+    nav{
+        display: none ;
+    }
+    
+    main{
+        flex-basis: 100%;
+    
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    .Dashboard{
+        display: flex;
+        align-items:center
+    }
+    .Dashboard img{
+        display: block;
+        width: 1.2rem;
+        height: 1rem;
+    }
+
+}
+@media (max-width: 650px){
+
+    .shedule{
+        flex-direction: column;
+    }
+    .shedule .card {
+        width: 97%;
+        margin-bottom: 3rem;
+    }
+    .shedule .card .graphics{
+        height: 12rem;
+    }
+    .two .card{
+        margin: 0 0 3rem 0;
+    }
+}
+@media (max-width: 500px){
+    .achiev{
+        flex-direction: column;
+    }
+    .achiev .card{
+        width: 97%;
+    }
+    .achiev .card .data{
+        justify-content: space-between;
+    }
+}
+
